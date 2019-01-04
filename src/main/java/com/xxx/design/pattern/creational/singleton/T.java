@@ -6,7 +6,6 @@ package com.xxx.design.pattern.creational.singleton;
  */
 public class T implements Runnable {
 
-    @Override
     public void run() {
 //        LazySingleton instance = LazySingleton.getInstance();
 //        LazyDoubleCheckSingleton instance = LazyDoubleCheckSingleton.getInstance();

@@ -14,7 +14,7 @@ public class Test {
         mail.setContent("初始化模版");
 
         for (int i = 0; i < 10; i++){
-            //克隆对象
+            // 克隆对象（浅克隆）
             Mail mailTemp = (Mail) mail.clone();
             mailTemp.setName("Name" + i);
             mailTemp.setEmailAddress(i + "@example.com");

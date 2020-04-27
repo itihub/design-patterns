@@ -1,4 +1,4 @@
-package com.xxx.design.pattern.creational.builder;
+package com.xxx.design.pattern.creational.builder.v1;
 
 /**
  * @author kichi
@@ -6,7 +6,7 @@ package com.xxx.design.pattern.creational.builder;
  */
 public class Coach {
 
-    //具体实现类
+    // 具体实现类
     private BaseCourseBuilder courseBuilder;
 
     public void setCourseBuilder(BaseCourseBuilder builder){
@@ -21,6 +21,6 @@ public class Coach {
         this.courseBuilder.buildCourseVideo(courseVideo);
         this.courseBuilder.buildCourseArticle(courseArticle);
         this.courseBuilder.buildCourseQA(courseQA);
-        return this.courseBuilder.nakeCourse();
+        return this.courseBuilder.makeCourse();
     }
 }

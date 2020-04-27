@@ -1,4 +1,4 @@
-package com.xxx.design.pattern.creational.singleton;
+package com.xxx.design.pattern.creational.singleton.container;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -9,6 +9,7 @@ import java.util.Map;
  */
 public class ContainerSingleton {
 
+    // 饿汉
     private static Map<String, Object> singletonMap = new HashMap<String, Object>();
 
     /**
@@ -20,8 +21,8 @@ public class ContainerSingleton {
 
         if (key != null && !"".equals(key)){
 
-            //判断map中不存在此key
-            if (singletonMap.containsKey(key)){
+            // 判断map中不存在此key
+            if (!singletonMap.containsKey(key)){
                 singletonMap.put(key, instance);
             }
         }

@@ -1,4 +1,4 @@
-package com.xxx.design.pattern.creational.builder;
+package com.xxx.design.pattern.creational.builder.v1;
 
 /**
  * @author kichi

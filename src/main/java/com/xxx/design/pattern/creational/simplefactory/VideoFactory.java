@@ -23,6 +23,7 @@ public class VideoFactory {
 
     /**
      * 根据反射简单工厂 扩展无需重写工厂逻辑
+     * 缺点：反射性能不好
      * @param clazz
      * @return
      */

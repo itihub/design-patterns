@@ -21,8 +21,8 @@ public class Pig implements Cloneable{
     protected Object clone() throws CloneNotSupportedException {
         Pig pig = (Pig) super.clone();
 
-        //深克隆
-        pig.birthday = (Date) pig.birthday.clone(); //对成员属性克隆
+        // 深克隆
+        pig.birthday = (Date) pig.birthday.clone(); // 对引用类型的成员属性克隆
         return pig;
     }
 

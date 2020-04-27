@@ -1,5 +1,7 @@
 package com.xxx.design.pattern.creational.abstractfactory;
 
+import com.xxx.design.pattern.creational.abstractfactory.factory.JavaCourseFactory;
+
 /**
  * @author kichi
  * @description: 抽象工厂测试类

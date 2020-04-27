@@ -1,4 +1,4 @@
-package com.xxx.design.pattern.creational.singleton;
+package com.xxx.design.pattern.creational.singleton.container;
 
 /**
  * @author kichi

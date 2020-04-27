@@ -11,14 +11,14 @@ public class Test {
         BaseVideo video = null;
         VideoFactory factory = new VideoFactory();
 
-        //方式一
+        /** 方式一 不符合开闭原则 **/
 //        video = factory.getVideo("java");
 //        if (video == null){
 //            return;
 //        }
 //        video.produce();
 
-        //方式二
+        /** 方式二 符合开闭原则 **/
         video = factory.getVideo2(JavaVideo.class);
         video.produce();
     }

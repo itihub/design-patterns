@@ -1,5 +1,7 @@
 package com.xxx.design.pattern.creational.singleton;
 
+import com.xxx.design.pattern.creational.singleton.StaticInnerClassSingleton;
+
 /**
  * @author kichi
  * @description: 线程类

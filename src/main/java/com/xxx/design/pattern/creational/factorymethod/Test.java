@@ -9,9 +9,13 @@ public class Test {
 
     public static void main(String[] args) {
 
-        /**静态方法使用，子类实现调用父类方法*/
+        /** 静态方法使用，子类实现调用父类方法 **/
         VideoFactory videoFactory = new JavaVideoFactory();
         Video video = videoFactory.getVideo();
         video.produce();
+
+        videoFactory = new PythonFactory();
+        Video pythonVideo = videoFactory.getVideo();
+        pythonVideo.produce();
     }
 }

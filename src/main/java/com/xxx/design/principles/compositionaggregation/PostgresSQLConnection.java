@@ -3,9 +3,9 @@ package com.xxx.design.principles.compositionaggregation;
 /**
  * postgresql连接
  */
-public class PostgreSQLConnection extends DBConnection {
+public class PostgresSQLConnection extends DBConnection {
     @Override
     public String getConnection() {
-        return "PostgreSQL数据库连接";
+        return "PostgresSQL数据库连接";
     }
 }

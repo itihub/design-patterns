@@ -6,12 +6,18 @@ package com.xxx.design.principles.interfacesegregation;
  */
 public interface IAnimalAction {
 
-    //吃
+    /**
+     * 吃
+     */
     void eat();
 
-    //飞
+    /**
+     * 飞
+     */
     void fly();
 
-    //游泳
+    /**
+     * 游泳
+     */
     void swim();
 }

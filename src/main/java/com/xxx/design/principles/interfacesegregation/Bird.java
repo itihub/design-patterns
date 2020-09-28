@@ -16,6 +16,6 @@ public class Bird implements IAnimalAction {
     }
 
     public void swim() {
-        // 所有鸟不会飞 只能空实现 不合理
+        // 所有鸟不会游泳 只能空实现 不合理
     }
 }

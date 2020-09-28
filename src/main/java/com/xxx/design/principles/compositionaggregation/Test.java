@@ -6,7 +6,7 @@ package com.xxx.design.principles.compositionaggregation;
 public class Test {
     public static void main(String[] args) {
         ProductDao productDao = new ProductDao();
-        productDao.setDbConnection(new PostgreSQLConnection());
+        productDao.setDbConnection(new PostgresSQLConnection());
         productDao.addProduct();
     }
 }

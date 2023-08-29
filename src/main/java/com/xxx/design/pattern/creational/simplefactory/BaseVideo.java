@@ -1,10 +1,10 @@
 package com.xxx.design.pattern.creational.simplefactory;
 
 /**
- * @author kichi
- * @description: 抽象类
+ * 抽象视频类
  */
 public abstract class BaseVideo {
 
     public abstract void produce();
+
 }

@@ -1,11 +1,10 @@
 package com.xxx.design.pattern.creational.factorymethod;
 
 /**
- * @author kichi
- * @description: 工厂方法测试类
+ * 工厂方法测试类
  * 工厂方法针对产品等级结构
  */
-public class Test {
+public class FactoryMethodDemo {
 
     public static void main(String[] args) {
 

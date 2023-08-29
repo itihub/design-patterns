@@ -3,8 +3,7 @@ package com.xxx.design.pattern.creational.abstractfactory.course;
 import com.xxx.design.pattern.creational.abstractfactory.Article;
 
 /**
- * @author kichi
- * @description: 抽象产品等级实现
+ * 抽象产品等级实现
  */
 public class JavaArticle extends Article {
 

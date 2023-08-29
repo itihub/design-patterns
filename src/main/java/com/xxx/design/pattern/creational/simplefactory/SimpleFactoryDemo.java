@@ -1,10 +1,9 @@
 package com.xxx.design.pattern.creational.simplefactory;
 
 /**
- * @author kichi
- * @description: 简单工厂测试
+ * 简单工厂测试
  */
-public class Test {
+public class SimpleFactoryDemo {
 
 
     public static void main(String[] args) {

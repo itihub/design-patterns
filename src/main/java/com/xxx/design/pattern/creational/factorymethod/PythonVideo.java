@@ -2,8 +2,7 @@ package com.xxx.design.pattern.creational.factorymethod;
 
 
 /**
- * @author kichi
- * @description: 子类
+ * 子类
  */
 public class PythonVideo extends Video {
 
@@ -11,4 +10,5 @@ public class PythonVideo extends Video {
     public void produce() {
         System.out.println("录制Python课程");
     }
+
 }

@@ -1,14 +1,13 @@
 package com.xxx.design.pattern.creational.simplefactory;
 
 /**
- * @author kichi
- * @description: 工厂类
+ * 简单工厂类
  */
 public class VideoFactory {
 
     /**
      * 简单工厂
-     * 缺点：不符合开闭原则，扩展需要重写逻辑
+     * 缺点：增加新的子类需要修改工厂判断逻辑，不符合开闭原则
      * @param type
      * @return
      */
@@ -22,7 +21,7 @@ public class VideoFactory {
     }
 
     /**
-     * 根据反射简单工厂 扩展无需重写工厂逻辑
+     * 使用反射的方式来创建对象，扩展无需重写工厂逻辑
      * 缺点：反射性能不好
      * @param clazz
      * @return
